@@ -10,7 +10,7 @@ namespace Ex03.ConsoleUI
     {
         public static void Main()
         {
-            ConsoleUI UI = new ConsoleUI();
+            ConsoleUI UI = new ConsoleUI()
             UI.UserSelect();
         }
     }
